@@ -9,38 +9,71 @@ redirect_from:
 
 {% include base_path %}
 
+PDF
+======
+[Download PDF CV]({{ base_path }}/files/Kanglin-Xu-CV.pdf)
+
 Education
 ======
-* B.S. in Computer Science, Texas Tech University, 2024
+* University of Illinois Chicago, Aug 2025 - Expected May 2030
+  * Ph.D. in Computer Science
+  * GPA: 4.0
+* Texas Tech University, Aug 2021 - Dec 2024
+  * B.S. in Computer Science
+  * Minor in Mathematics
+  * GPA: 4.0
+* Lake Superior College, Aug 2020 - May 2021
+  * General Study
+  * GPA: 3.75
+
+Research Profile
+======
+My research lies at the intersection of machine learning and high-performance computing (HPC), with an emphasis on runtime prediction, reinforcement learning for system optimization, and AI-driven energy efficiency. I build predictive models from scheduler and system logs and develop uncertainty-aware buffering strategies to reduce underestimation and improve scheduling reliability. I am also exploring energy-aware scheduling and decision policies that improve throughput and reduce energy consumption in large-scale HPC systems.
+
+Research Interests
+======
+* HPC scheduling
+* Batch job runtime prediction
+* Energy-aware optimization
+* Reinforcement learning
+* Workload characterization
+* Trustworthy machine learning for systems
+
+Skills
+======
+* Programming: Python, C/C++, Bash, Git
+* ML / Data Science: TensorFlow, PyTorch, scikit-learn, XGBoost, Pandas, NumPy
+* HPC: Linux, job schedulers such as SLURM and PBS, profiling and monitoring workflows, cluster experimentation
+* Security: vulnerability assessment support, policy and risk review, audit-oriented documentation
 
 Professional Experience
 ======
-* September 2022 - Present: Research Assistant 
-  * Texas Tech University
-  * Duties includes: 
-    * Apply Machine Learning Algorithms to draw insights from large medical data sets to enhance operational efficiency.
-    * Design and develop Neural Network to assist clinical diagnosis.
-    * Visualize result and evaluation of each applicable Machine Learning Algorithm for comparison.
-  * Supervisor: Kai Wu, kai.wu@ttu.edu
+* Research Assistant, SPEAR Lab, University of Illinois Chicago, Aug 2025 - Present
+  * Develop and implement reinforcement learning algorithms for HPC system optimization.
+  * Design and run large-scale experiments on HPC clusters to evaluate RL-based approaches against traditional heuristics.
+  * Collaborate on performance analysis by integrating learning-based policies with HPC workflows.
+* Information Security Technician, CoNetrix Security / CoNetrix, Jan 2023 - May 2025
+  * Conduct internal and external vulnerability assessment support in coordination with audit and penetration testing groups.
+  * Review policies, procedures, risk assessments, and resiliency plans with information security consultants.
+  * Contribute to team-based solutions for evolving security requirements.
+* Research Assistant, Wu Research Group, Texas Tech University, Sep 2022 - May 2025
+  * Apply machine learning methods to analyze large medical datasets and support diagnosis-related research.
+  * Design and develop neural network models for clinical decision support tasks.
+  * Compare algorithms through systematic evaluation and visualization of results.
+* Teaching Assistant, Department of Computer Science, Texas Tech University, Sep 2024 - Dec 2024
+  * Supported course delivery through grading, office hours, and student feedback.
+  * Assisted with assignments, quizzes, exams, and general learning support.
 
-* September 2024 - December 2024: Teaching Assistant
-  * Texas Tech University University
-  * Duties included:
-    * Assist in delivering high-quality education to students.
-    * Work with instructor to evaluate student’s assignment, quizzes, exams and other course work. 
-  * Supervisor: Don Pathirage, don.t.pathirage@ttu.edu
-  
 Project Experience
 ======
-* Multiagent Deep Deterministic Policy Gradient Based Card Game
-  * Multiagent Reinforcment Learning Project, January 2024 - May 2024
-    * Design and train an artificial intelligence agent to play card game with agent- environment based reinforcement learning.
-    * Applying and programming multiagent deep deterministic policy gradient inspired network.
-    * Visualize real-time game environment and action taken by trained agent or human player
-* Image Based Deep Learning in Blood Cell Classification
-  * Neural Network Classification Project, May 2024 - September 2024
-    * Train and compare different Neural Network models to classify stages of blood cancer cell.
-    * Provide a reliable, automated tool for early detection of blood cancer cell. 
+* HPC Batch Job Runtime Prediction, Aug 2025 - Present
+  * Build machine learning models to predict batch job wall-clock runtime from scheduler logs.
+  * Engineer workload-aware and user-aware features, including runtime history and underestimation patterns.
+  * Evaluate performance with RMSE, R2, underestimation rate, and scheduling implications.
+* Multiagent Deep Deterministic Policy Gradient Based Card Game, Jan 2024 - May 2024
+  * Designed and trained AI agents for a card game using agent-environment reinforcement learning.
+  * Implemented a MADDPG-inspired framework for multiagent decision-making.
+  * Visualized real-time game states and actions for trained agents and human players.
 
 Publications
 ======
@@ -48,7 +81,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Presentations
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
@@ -60,11 +93,8 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Professional Memberships / Organizations
+Additional Information
 ======
-  * The International Information System Security Certification Consortium
-    * ISC II Member
-  * Honors College of Texas Tech University
-    * Undergraduate Research Scholar
-  * TrUE Scholar Program of Texas Tech University
-    * Undergraduate Research Scholar
+* Google Scholar: [Profile](https://scholar.google.com/citations?user=Q7FUgDYAAAAJ&hl=en-US)
+* GitHub: [RuaKusa](https://github.com/RuaKusa)
+* References available upon request
